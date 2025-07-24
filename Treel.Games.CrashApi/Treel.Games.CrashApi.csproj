@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Helper\Treel.Games.DataLayer\Treel.Games.DataLayer.csproj" />
+    <ProjectReference Include="..\Cox.SignalRHub\Cox.SignalRHub.csproj" />
+    <ProjectReference Include="..\Treel.Orchestrator.ServiceDefaults\Treel.Orchestrator.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\TreelGamesDataModel\TreelGamesDataModel.csproj" />
+  </ItemGroup>
+
+</Project>

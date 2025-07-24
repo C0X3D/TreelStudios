@@ -1,0 +1,6 @@
+@Treel.Games.CrashApi_HostAddress = http://localhost:5001
+
+GET {{Treel.Games.CrashApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

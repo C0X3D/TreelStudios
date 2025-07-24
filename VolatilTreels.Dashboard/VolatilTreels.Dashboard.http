@@ -1,0 +1,6 @@
+@VolatilTreels.Dashboard_HostAddress = http://localhost:5145
+
+GET {{VolatilTreels.Dashboard_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

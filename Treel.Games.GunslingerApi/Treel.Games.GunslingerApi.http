@@ -1,0 +1,6 @@
+@Treel.Games.GunslingerApi_HostAddress = http://localhost:5106
+
+GET {{Treel.Games.GunslingerApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
